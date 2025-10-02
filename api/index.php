@@ -12,7 +12,7 @@ include __DIR__ . '/includes/header.php';
                         <!-- Seção da Foto + Texto Introdutório -->
                         <div class="col-md-4 bg-dark text-white p-4 d-flex flex-column">
                             <div class="text-center mb-4">
-                                <img src="./img/perfil.jpg" alt="André Aragão" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                                <img src="../img/perfil.jpg" alt="André Aragão" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
                                 <h3>André Oliveira Aragão</h3>
                                 <p class="text-muted">Desenvolvedor Full Stack</p>
                             </div>
