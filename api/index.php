@@ -90,7 +90,7 @@ include __DIR__ . '/includes/header.php';
                                         <div class="col-6 col-md-3">
                                             <div class="p-2 border rounded text-center h-100">
                                                 <i class="bi bi-database display-6 text-success mb-2"></i>
-                                                <h6 class="h6">Bancos de Dados</h6>
+                                                <h6 class="h6">Base de Dados</h6>
                                                 <ul class="list-unstyled small">
                                                     <li>MySQL</li>
                                                     <li>PostgreSQL</li>

@@ -19,4 +19,4 @@
             <p>Desenvolvedor Full Stack</p>
         </div>
     </header>
-    <?php include 'includes/nav.php'; ?>
+    <?php include __DIR__ . '/nav.php'; ?>
