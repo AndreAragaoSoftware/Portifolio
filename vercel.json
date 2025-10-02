@@ -1,15 +1,13 @@
 {
   "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.6.0",
-      "includeFiles": "api/includes/**"
-    }
+    "api/**/*.php": { "runtime": "vercel-php@0.7.4" }
   },
   "routes": [
     { "src": "^/api/includes/.*$", "status": 404 },
 
     { "src": "^/css/(.*)$", "dest": "/css/$1" },
     { "src": "^/img/(.*)$", "dest": "/img/$1" },
+
 
     { "src": "^/$", "dest": "/api/index.php" },
     { "src": "^(contacto|projetos|processar|teste)/?$", "dest": "/api/$1.php" },
