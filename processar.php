@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Mensagem Enviada";
-include 'includes/header.php'; 
+include __DIR__ . '/includes/header.php'; 
 
 // Processar dados recebidos
 $nome = htmlspecialchars($_POST['nome'] ?? 'Não informado');
@@ -87,4 +87,4 @@ $assuntoLabel = $assuntos[$assunto] ?? $assunto;
     </div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ .  '/includes/footer.php'; ?>

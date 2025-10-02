@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Sobre Mim";
-include 'includes/header.php';
+include __DIR__ . '/includes/header.php';
 ?>
 
 <section id="sobre" class="py-5 bg-light">
@@ -144,4 +144,4 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>

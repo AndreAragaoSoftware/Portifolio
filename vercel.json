@@ -1,0 +1,19 @@
+{
+"functions": {
+"**/*.php": {
+"runtime": "vercel-php@0.6.0"
+}
+},
+"routes": [
+{ "src": "^/includes/.*", "status": 404 },
+
+{ "src": "^/css/(.*)$", "dest": "/css/$1" },
+{ "src": "^/img/(.*)$", "dest": "/img/$1" },
+{ "src": "^/reflexao/(.*)$", "dest": "/reflexao/$1" },
+
+{ "src": "^/$", "dest": "/index.php" },
+{ "src": "^(.*)\\.php$", "dest": "$1.php" },
+
+{ "src": "^(contacto|projetos|processar|teste)/?$", "dest": "/$1.php" }
+]
+}

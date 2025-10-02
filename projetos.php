@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Meus Projetos";
-include 'includes/header.php';
+include __DIR__ . '/includes/header.php';
 ?>
 
 <section id="projetos">
@@ -93,4 +93,4 @@ include 'includes/header.php';
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/includes/footer.php'; ?>
